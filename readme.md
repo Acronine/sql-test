@@ -8,4 +8,23 @@ We were given a task to create a database capable of storing all relevant data f
 
 ### ERD
 
-![](C:\Users\Owner\Documents\Coding Temple Downloads\bonfire_124_sql_test\Mock-Amazon-ERD.pdf)
+![](https://github.com/Acronine/sql-test/blob/main/Mock-Amazon-ERD.pdf)
+
+## Folder Structure
+
+- gitignore
+    - Tell git to ignore env
+
+- .env file
+    -   not be uploaded to GitHub. This will house all our local connection variables
+
+- create.sql
+    - Table creation for is
+
+- insert.sql
+    - Insertion of data
+- query.sql
+    - All our sql queries
+
+- demo.py
+    - House a class that will run all of these at once.
